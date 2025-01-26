@@ -1,0 +1,79 @@
+
+
+@font-face{
+  font-family: Satoshi;
+  src: url("./assets/fonts/Satoshi-Variable.ttf");
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  background-color: #09090b;
+  height: 100vh;
+  width: 100vw;
+}
+
+#root{
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+body {
+  height: 100%;
+
+  font-family: Satoshi, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  overflow: hidden;
+
+  padding: 32px;
+  background-color: #111011;
+}
+
+header{
+  color: #a1a1a1;
+
+
+}
+
+main{
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  padding-bottom: 16px;
+
+
+
+}
+.recharts-layer {
+  text-shadow: 1px 1px 16px #ffffff;
+  
+}
+
+#dem-div{
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  gap: 100px;
+}
