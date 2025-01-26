@@ -34,8 +34,6 @@ export default function App() {
             <header>
                 <span>basic parabola demonstration</span>
             </header>
-
-
                 <main>
 
                     <svg style={{width: 0, height: 0}}>
